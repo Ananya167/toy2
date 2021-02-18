@@ -32,6 +32,7 @@
     -webkit-animation: type 4s steps(40, end);
     animation: type 4s steps(40, end);
     padding: 0;
+    margin:0px;
 }
 
 .css-typing:nth-child(2)
