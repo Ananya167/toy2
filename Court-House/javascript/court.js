@@ -15,7 +15,7 @@ var audio = document.getElementById("audio");
 var bg = document.getElementById("bgCourt");
 var tv = document.getElementById("tv");
 var lady = document.getElementById("lady");
-var scene = 9;
+var scene = 1;
 
 increaseOpacity(bg, 0.005);
 start();
@@ -70,7 +70,7 @@ async function start() {
           "public prosecuter please present the case",
           3000
         )},5000);
-      //await wait(5000);
+      await wait(5000);
       scene++;
       start();
       break;
