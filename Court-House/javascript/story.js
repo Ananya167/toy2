@@ -89,53 +89,53 @@ function story() {
     display_dialog_big(
       lady,
       "Mr Shinde searched her trunk in front of me and we were shocked to find Rs 10,000 in an envelope.Shanti got this money from selling my gold chain. She is a thief ",
-      3000
+      5000
     );
     console.log(scene++);
-    setTimeout(scene26, 25000);    
+    setTimeout(scene26, 26700);    
   }
   function scene24(){
     display_dialog_big(
       lady,
       "And the next day I witnessed it was lost, Shanti stole it. No other outsider except Shanti goes into my room.",
-      3000
+      5000
       );
     console.log(scene++);
-    setTimeout(scene25,20000);
+    setTimeout(scene25,26600);
   }
   function scene23(){
     display_dialog_big(
       lady,
       "I had kept my chain in the drawer last night and we went to a party after that and shanti was alone at home.", 
  
-      3000
+      5000
     );
-    console.log(scene++);
-    setTimeout(scene24, 19500);    
+    console.log(scene++);1
+    setTimeout(scene24, 26500);    
   }
   function scene22(){
     display_dialog_big(
       plawyer_stand,
       "Ms. shinde when did you felt the chain was stolen and that too by Shanti",
-      3000
+      5000
     );
     console.log(scene++);
-    setTimeout(scene23, 19000);    
+    setTimeout(scene23, 26000);    
   }
   function scene21(){
     decreaseOpacity(accused,0.005);
     increaseOpacity(lady,0.005);
     console.log(scene++);
-    setTimeout(scene22, 18500);    
+    setTimeout(scene22, 21500);    
   }
   function scene20(){
     display_dialog_big(
       plawyer_stand,
-      "Ok so your honor now i would like to call Ms. Shinde",
+      "Ok so, Your honor now i would like to call Ms. Shinde",
       3000
     );
     console.log(scene++);
-    setTimeout(scene21, 18000);    
+    setTimeout(scene21, 21000);    
   }
   function scene19(){
     display_dialog_big(
@@ -144,7 +144,7 @@ function story() {
       3000
     );
     console.log(scene++);
-    setTimeout(scene20, 17500);    
+    setTimeout(scene20, 20500);    
   }
   function scene18(){
     display_dialog_big(
@@ -153,16 +153,16 @@ function story() {
       3000
     );
     console.log(scene++);
-    setTimeout(scene19, 17000);    
+    setTimeout(scene19, 20000);    
   }
   function scene17(){
     display_dialog_big(
-      judge2,
+      judge1,
       "Prosecuter Lawyer you may proceed",
       3000
     );
     console.log(scene++);
-    setTimeout(scene18, 16500);    
+    setTimeout(scene18, 19500);    
   }
   function proceed(){
     //button proceed yes/not
@@ -176,7 +176,7 @@ function story() {
       3000
     );
     console.log(scene++);
-    setTimeout(scene17, 16000);
+    setTimeout(scene17, 19000);
   } 
   function scene15() {
     display_dialog_big(
@@ -195,13 +195,13 @@ function story() {
       6000
     );
     console.log(scene++);
-    setTimeout(scene15, 18000);
+    setTimeout(scene15, 13500);
   }
   function scene13() {
     display_dialog(
       writer,
       "Ms. Shanti Priya, repeat after me.",
-      3000
+      1500
     );
     console.log(scene++);
     setTimeout(scene14, 12000);
@@ -215,10 +215,10 @@ function story() {
     display_dialog(
       writer,
       "Ms. Shanti, come up in the witness box",
-      3000
+      2500
     );
     console.log(scene++);
-    setTimeout(scene12, 10000);
+    setTimeout(scene12, 11500);
   }
   function scene10() {
     display_dialog(
@@ -227,7 +227,7 @@ function story() {
       3000
     );
     console.log(scene++);
-    setTimeout(scene11, 8000);
+    setTimeout(scene11, 9000);
   }
 
   function scene09() {
